@@ -10,7 +10,7 @@ app.use(cors({
     allowedHeaders: "*",
 
 }))
-const server = new WebSocketServer({ port: 8080 });
+const server = new WebSocketServer({ port: 5000 });
 
 // Store connected clients
 const clients = new Set();
